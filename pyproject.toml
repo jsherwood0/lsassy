@@ -10,17 +10,17 @@ authors = ["pixis <hackndo@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-netaddr = "^0.8.0"
-pypykatz = "^0.6.3"
+netaddr = "*"
+pypykatz = "*"
 impacket = {git = "https://github.com/jsherwood0/impacket.git"}
-rich = ">=10.6.0"
+rich = "*"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.1"
-coverage = "^5.3.1"
-pytest-cov = "^2.10.1"
-nox = "^2020.8.22"
-pytest-mock = "^3.4.0"
+pytest = "*"
+coverage = "*"
+pytest-cov = "*"
+nox = "*"
+pytest-mock = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
