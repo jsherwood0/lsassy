@@ -12,7 +12,7 @@ authors = ["pixis <hackndo@gmail.com>"]
 python = "^3.7"
 netaddr = "*"
 pypykatz = "*"
-impacket = {git = "https://github.com/jsherwood0/impacket.git"}
+impacket = {git = "https://github.com/jsherwood0/impacket.git", branch = "custom-local-dependencies"}
 rich = "*"
 
 [tool.poetry.dev-dependencies]
